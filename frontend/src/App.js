@@ -15,7 +15,8 @@ function App() {
   const [isLoadingDeposit, setIsLoadingDeposit] = useState(false);
   const [isLoadingTransfer, setIsLoadingTransfer] = useState(false);
 
-  const contractAddress = '0x77398e450AcfDB86fc6e2c3D1216Caa3e7f12375';
+  const contractAddress = process.env.REACT_APP_CONTRACT_ADDRESS;
+
 
   useEffect(() => {
     const loadMetaMask = async () => {
