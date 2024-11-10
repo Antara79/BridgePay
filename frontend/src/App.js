@@ -119,7 +119,7 @@ function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       {message && <Alert severity={messageType}>{message}</Alert>}
-      <Typography variant="h4">Cross Border Payment System</Typography>
+      <Typography variant="h4">Eth Transfer</Typography>
       <Typography variant="h6">Connected Account: {account || 'No account connected'}</Typography>
 
       <div style={{ marginTop: '20px' }}>
